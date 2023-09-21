@@ -1,0 +1,24 @@
+.meals__header{
+ background-repeat: no-repeat;
+ background-size: cover;
+ background-position: center;
+ padding: 80px 0px;
+ text-align: center;
+ margin: 0;
+ padding-top: 0%;
+}
+.meals__header h2{
+    font-size: 1rem;
+    font-weight: 600;
+    color: black;
+}
+.meals__header p{
+    font-size: 1.1rem;
+    font-weight: 400;
+    line-height: 25px;
+}
+.meals__header span{
+    color: #19704a;
+    font-size: 1rem;
+    font-weight: 600;
+}

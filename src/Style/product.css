@@ -1,0 +1,48 @@
+.title{
+    color: #1f1b1b;
+    font-weight: 600;
+    background: #bebdbd;
+}
+.title:Hover{
+    color:#ec8484;
+}
+.shopAll{
+    margin-left: 98%;
+    color: #7efa7e;
+}
+.shopAll:hover{
+    color: #e65165;
+    font-size: 20px;
+}
+.product__item {
+    border: 1px solid #fcf9f9;
+    text-align: center;
+    padding: 30px;
+    cursor: pointer;
+    background: #e6e3e3;
+  }
+  
+  .product__item {
+    margin-bottom: 20px;
+    transition: 0.4s;
+  }
+  
+  .product__item:hover {
+    transform: scale(1.2);
+    color: #dddada
+  }
+  
+  .product__item h6  {
+    color: #212245;
+    font-size: 1rem;
+    margin-bottom: 30px;
+  }
+  
+  @media only screen and (max-width: 992px) {
+    .product__iten h6 {
+      font-size: 0.8rem;
+    }
+    .product__item {
+      padding: 20px;
+  }
+}
